@@ -6,4 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".Login">
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_email"
+            android:hint="@string/et_email" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_password"
+            android:hint="@string/et_password"
+            android:layout_below="@id/et_email"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_login"
+            android:layout_below="@id/et_password"
+            android:background="@color/colorPrimary"
+            android:hint="@string/btn_login"
+            android:textColorHint="@android:color/white"
+            />
+    </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>

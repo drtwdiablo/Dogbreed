@@ -6,4 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".Register">
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_email"
+            android:hint="@string/et_email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_password"
+            android:layout_below="@id/et_email"
+            android:hint="@string/et_password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_firstName"
+            android:hint="@string/et_firstName"
+            android:layout_below="@id/et_password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_lastName"
+            android:hint="@string/et_lastName"
+            android:layout_below="@id/et_firstName"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_signUp"
+            android:hint="@string/btn_signUp"
+            android:layout_below="@id/et_lastName"
+            android:background="@color/colorPrimary"
+            android:textColorHint="@android:color/white"/>
+
+    </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>
