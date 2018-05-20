@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "19222878238",
+    "firebase_url": "https://dogbreed-fc88c.firebaseio.com",
+    "project_id": "dogbreed-fc88c",
+    "storage_bucket": "dogbreed-fc88c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19222878238:android:5d4b910e42c7e5f9",
+        "android_client_info": {
+          "package_name": "com.example.dogbreed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19222878238-32frfg83sbakv25i9ionj0st0sdokksh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dogbreed",
+            "certificate_hash": "ad280698d47218a0ae1d838acb61766525cd1b44"
+          }
+        },
+        {
+          "client_id": "19222878238-obek3cmberi8lbon6mm8spncvc9f9vd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCOLF6VTy1dCxwYVayijBoWjRUXVVJmmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19222878238-obek3cmberi8lbon6mm8spncvc9f9vd0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
