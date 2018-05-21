@@ -6,4 +6,5 @@
     <string name="et_password">Password</string>
     <string name="et_firstName">First Name</string>
     <string name="et_lastName">Last Name</string>
+    <string name="tv_signUp">Don\'t have an account? Tap here.</string>
 </resources>
