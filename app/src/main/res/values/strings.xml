@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">Dogbreed</string>
-    <string name="btn_login">Sign in</string>
+    <string name="btn_login">Sign In</string>
     <string name="btn_signUp">Sign Up</string>
+    <string name="btn_signOut">Sign Out</string>
     <string name="et_email">Email</string>
     <string name="et_password">Password</string>
     <string name="et_firstName">First Name</string>
     <string name="et_lastName">Last Name</string>
     <string name="tv_signUp">Don\'t have an account? Tap here.</string>
+    <string name="welcomeMessage">Welcome to Dogbreed, </string>
 </resources>
