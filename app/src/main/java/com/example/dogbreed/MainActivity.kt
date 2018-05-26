@@ -15,10 +15,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val currentUser = mAuth.currentUser
+        val user = mAuth.currentUser
 
-        if(currentUser != null){
-            tv_userInfo.text = "Hello: " + currentUser.email.toString()
+        if(user != null){
+            tv_userInfo.text = "Hello: " + user.uid!!.toString()
         } else {
             startActivity(Intent(this, Login::class.java))
         }

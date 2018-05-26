@@ -6,22 +6,24 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        style="@style/AppTheme"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        style="@style/AppTheme">
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="10dp">
 
         <TextView
+            android:id="@+id/tv_userInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:id="@+id/tv_userInfo"/>
+            android:textAlignment="center" />
 
         <Button
+            android:id="@+id/btn_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_test"
-            android:hint="@string/btn_signOut"
             android:background="@color/colorPrimary"
+            android:hint="@string/btn_signOut"
             android:textColorHint="@android:color/white" />
 
     </LinearLayout>

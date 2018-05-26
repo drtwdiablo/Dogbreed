@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login">
 
     <RelativeLayout
+        style="@style/AppTheme"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        style="@style/AppTheme">
+        android:layout_height="match_parent">
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/et_email"
-            android:hint="@string/et_email"
-            android:inputType="textEmailAddress"/>
-
-        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/et_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
             android:id="@+id/et_password"
-            android:hint="@string/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_below="@id/et_email"
-            android:inputType="textPassword"/>
+            android:hint="@string/et_password"
+            android:inputType="textPassword" />
 
         <Button
+            android:id="@+id/btn_signIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_signIn"
             android:layout_below="@id/et_password"
             android:background="@color/colorPrimary"
             android:hint="@string/btn_login"
-            android:textColorHint="@android:color/white"/>
+            android:textColorHint="@android:color/white" />
 
         <TextView
+            android:id="@+id/tv_signUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tv_signUp"
-            android:text="@string/tv_signUp"
             android:layout_below="@id/btn_signIn"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:text="@string/tv_signUp" />
 
     </RelativeLayout>
 
